@@ -1,0 +1,161 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#d1fff8;
+    padding-top: 30px; 
+    
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0c9;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+  }
+
+  .location{
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+
+  .logo img {
+    position:absolute;
+    top: 20px; 
+    left: 20px; 
+    width: 100px;
+    height: auto;
+    padding-left: 20px;
+
+  }
+
+ 
+  .container {
+    text-align: center;
+    
+  }
+  
+  .sign {
+    display:inline-block;
+    margin: 20px auto;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+
+
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  button {
+    background-color: #1bb9e5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 10px;
+    width: 225px;
+    font-size: 16px; 
+  }
+  
+  
+
+  .calendar {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .bosch {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .renault {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .makers_assemble {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .inventorcam {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  thead th {
+    background-color: #e3cbf9;
+  }
+  
+  tbody td {
+    background-color: #fff;
+  }
+
+  
+
+  .picture img {
+    position:absolute; 
+    width: 600px;
+    height: auto;
+    left: 300px;
+  }
+
+  .upcoming {
+    position: relative;
+    left : 25%;
+    top: 0px;
+  }
+
+ 
+  
+ 
+  
